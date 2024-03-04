@@ -1,0 +1,2 @@
+#Retrieve the brand, model, and total count of cars for models that have more than 10 cars and an average price greater than $25,000.\
+SELECT Model , Brand FROM arvind.cars GROUP BY Model , Brand HAVING COUNT(*) > 10 AND AVG(Price) > 25000

@@ -1,0 +1,2 @@
+#Display the brand, model, and total count of cars for brands that have more than 50 cars in the dataset.
+SELECT Brand, Model , COUNT(*) AS "Total" FROM arvind.cars GROUP BY Brand, Model HAVING Total > 50

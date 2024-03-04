@@ -1,0 +1,1 @@
+SELECT * FROM arvind.cars WHERE 1

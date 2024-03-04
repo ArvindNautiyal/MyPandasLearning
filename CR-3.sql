@@ -1,0 +1,1 @@
+SELECT Brand , COUNT(*) AS "TOTAL_CARS" FROM arvind.cars GROUP BY Brand

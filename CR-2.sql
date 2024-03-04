@@ -1,0 +1,1 @@
+SELECT DISTINCT(Brand) AS "Brand"  FROM arvind.cars
