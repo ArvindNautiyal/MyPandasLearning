@@ -237,6 +237,8 @@ SET Storage_device = (CASE
 					END );
 SELECT * FROM laptop;
 
+-- Thank You , You can do more cleaning as per your EDA
+
 
 
 
